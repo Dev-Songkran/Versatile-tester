@@ -1,0 +1,43 @@
+$font-family-sans-serif:        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base:              'NotoSansThai', 'NotoSansEng', $font-family-sans-serif;
+$fonts:                         (Light 300) (Regular 400) (SemiBold 500);
+$font-size-base:                0.875rem;
+$font-weight-base:              300;
+
+$blue:    #007bff;
+$indigo:  #255cad;
+$purple:  #745ab5;
+$pink:    #fc5180;
+$red:     #ff655f;
+$orange:  #ff843a;
+$yellow:  #ffa600;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+$black:   #111111;
+$white:   #ffffff;
+
+$theme-colors: (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+);
+
+$link-color:            $black;
+$link-hover-color:      $indigo;
+$link-hover-decoration: none;
+
+$navbar-dark-color:             $white;
+$navbar-dark-hover-color:       $yellow;
+
+$dropdown-border-width:     0;
+$dropdown-padding-y:        0;
+$dropdown-border-radius:    0;

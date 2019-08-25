@@ -1,0 +1,30 @@
+@each $item in $fonts {
+    $name: nth($item, 1);
+    $weight: nth($item, 2);
+    @font-face {
+        font-family: "NotoSansThai";
+        src: url("../fonts/NotoSansThai-#{$name}.eot"); /* IE9 Compat Modes */
+        src: url("../fonts/NotoSansThai-#{$name}.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("../fonts/NotoSansThai-#{$name}.otf") format("opentype"), /* Open Type Font */
+          url("../fonts/NotoSansThai-#{$name}.svg") format("svg"), /* Legacy iOS */
+          url("../fonts/NotoSansThai-#{$name}.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("../fonts/NotoSansThai-#{$name}.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/NotoSansThai-#{$name}.woff2") format("woff2"); /* Modern Browsers */
+        font-weight: #{$weight};
+        font-style: #{$weight};
+        unicode-range: U+0E00 - U+0E7F;
+    }
+    @font-face {
+        font-family: "NotoSansEng";
+        src: url("../fonts/NotoSans-#{$name}.eot"); /* IE9 Compat Modes */
+        src: url("../fonts/NotoSans-#{$name}.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("../fonts/NotoSans-#{$name}.otf") format("opentype"), /* Open Type Font */
+          url("../fonts/NotoSans-#{$name}.svg") format("svg"), /* Legacy iOS */
+          url("../fonts/NotoSans-#{$name}.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("../fonts/NotoSans-#{$name}.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/NotoSans-#{$name}.woff2") format("woff2"); /* Modern Browsers */
+        font-weight: #{$weight};
+        font-style: #{$weight};
+        unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+    }
+}

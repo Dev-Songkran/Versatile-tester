@@ -1,0 +1,55 @@
+RewriteEngine On
+
+RewriteRule ^about-us$ about-us/
+RewriteRule ^about-us/$ about-us.php
+
+RewriteRule ^service$ service/
+RewriteRule ^service/$ service.php
+
+RewriteRule ^portfolio-single$ portfolio-single/
+RewriteRule ^portfolio-single/$ portfolio-single.php
+
+RewriteRule ^portfolio$ portfolio/
+RewriteRule ^portfolio/$ portfolio.php
+
+RewriteRule ^portfolio/Easy-Lock$ portfolio/Easy-Lock/
+RewriteRule ^portfolio/Easy-Lock/$ portfolio.php?type=1
+
+RewriteRule ^portfolio/Billboard$ portfolio/Billboard/
+RewriteRule ^portfolio/Billboard/$ portfolio.php?type=2
+
+RewriteRule ^portfolio/Miniboard$ portfolio/Miniboard/
+RewriteRule ^portfolio/Miniboard/$ portfolio.php?type=3
+
+RewriteRule ^portfolio/Car-Wrap$ portfolio/Car-Wrap/
+RewriteRule ^portfolio/Car-Wrap/$ portfolio.php?type=4
+
+RewriteRule ^portfolio/Tower-Wrap$ portfolio/Tower-Wrap/
+RewriteRule ^portfolio/Tower-Wrap/$ portfolio.php?type=5
+
+RewriteRule ^portfolio/Metal-Letter$ portfolio/Metal-Letter/
+RewriteRule ^portfolio/Metal-Letter/$ portfolio.php?type=6
+
+RewriteRule ^portfolio/LED$ portfolio/LED/
+RewriteRule ^portfolio/LED/$ portfolio.php?type=7
+
+RewriteRule ^portfolio/Light-Box$ portfolio/Light-Box/
+RewriteRule ^portfolio/Light-Box/$ portfolio.php?type=8
+
+RewriteRule ^portfolio/KTB-Project$ portfolio/KTB-Project/
+RewriteRule ^portfolio/KTB-Project/$ portfolio.php?type=9
+
+RewriteRule ^portfolio/GSB-Project$ portfolio/GSB-Project/
+RewriteRule ^portfolio/GSB-Project/$ portfolio.php?type=10
+
+RewriteRule ^portfolio/Inkjet$ portfolio/Inkjet/
+RewriteRule ^portfolio/Inkjet/$ portfolio.php?type=11
+
+RewriteRule ^portfolio/Accessories$ portfolio/Accessories/
+RewriteRule ^portfolio/Accessories/$ portfolio.php?type=12
+
+RewriteRule ^career$ career/
+RewriteRule ^career/$ career.php
+
+RewriteRule ^contact-us$ contact-us/
+RewriteRule ^contact-us/$ contact-us.php
